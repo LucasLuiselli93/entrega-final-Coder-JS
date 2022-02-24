@@ -1,0 +1,7 @@
+[
+    {"id":"0001", "nombre": "Poncho Cuarteto-Talle único", "imagen":"poncho.webp","precio":"1500"},
+    {"id":"0002", "nombre": "Bolsa Cuarteto - Blanco", "imagen":"bolsa1.webp","precio":"1400"},
+    {"id":"0003", "nombre": "Bolsa Cuarteto - Negro", "imagen":"bolsa2.webp","precio":"1600"},
+    {"id":"0004", "nombre": "Poster Aniversario - Raro ", "imagen":"poster.webp","precio":"1600"}
+ 
+    ]

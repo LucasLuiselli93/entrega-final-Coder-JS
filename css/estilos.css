@@ -1,0 +1,191 @@
+   /* html {
+     font-size: 72.5%; 
+    box-sizing: border-box;
+   
+}    */
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+main{
+    padding-top: 10rem;
+    background-color: rgb(194, 72, 72);
+
+}
+
+footer{
+    background-color: rgb(196, 196, 196);
+}
+
+h2{
+    color: black;
+}
+
+/* NAVEGACION */
+
+img{
+    max-width: 100%;
+}
+
+
+
+input{
+    font-size: 2rem;
+}
+
+/* Nav */
+
+@media (max-width:360px) {
+    #img-carrito{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+ }
+
+
+.submenu {
+    position: relative;
+    list-style: none;
+}
+
+.submenu #carritoX{
+    display: none;
+}
+.submenu:hover #carritoX{
+    display: block;
+    position: absolute;
+    right:0;
+    list-style: none;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+    font-size: smaller;
+}
+
+.submenu .carrito-vacio{
+  background-color: black;
+  color: white;
+  margin: 10px;
+  font-size:x-small;
+    
+}
+
+.submenu img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.full-width {
+    width: 100%;
+    place-items: center;
+    box-sizing: border-box; 
+}
+
+.separacion{
+    padding: 0 10px;
+}
+
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+  .carrito__productos{
+    display: flex;
+    justify-content: center;
+   
+} 
+
+
+  @media (min-width:200px) {
+    .carrito__producto{
+        display: flex;
+        justify-content: center ;
+ } 
+}  
+
+.formulario__campo{
+    background-color: rgb(148, 143, 145);
+    color: beige;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.precio{
+    color:rgb(234, 189, 189);
+    font-weight: 900;
+    background-color: black;
+    margin: 1rem;
+    padding-top: 2px;
+} 
+
+
+
+
+
+
+/* FORMULARIO DE CONTACTO */
+
+.contacto{
+
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+
+.alinear{
+    padding-left:40px;
+}
+
+.redes{
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+    background-color: rgb(99, 99, 142);
+    color: whitesmoke;
+    
+}
+
+
+.boton__contacto{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+    border: solid 1px
+
+} 
+
+.texto__footer
+{
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
